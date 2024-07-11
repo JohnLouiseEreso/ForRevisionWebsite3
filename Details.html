@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+</head>
+<body>
+    <div id="main1-div">
+        <header class="header">
+            <a href="#" class="logo">InfoSteph</a>
+            <nav>
+                <div class="nav-div">
+                    <a href="#" class="glowing-link"><b>Help</b></a>
+                    <a href="#" class="glowing-link"><b>Log in</b></a>
+                    <a href="#" class="glowing-link"><b>Sign Up</b></a>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="app">
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+            </div>
+        </div>
+
+        <aside class="sidebar">
+            <h3>Menu</h3>
+            <div class="menu">
+                <a href="index.html" class="menu-item is-active">Home</a>
+                <a href="About.html" class="menu-item">About</a>
+                <a href="Details.html" class="menu-item">Details</a>
+                <a href="Contact.html" class="menu-item">Contact</a>
+            </div>
+        </aside>
+
+        <main class="content-details">
+            <div id="details-div">
+                <div class="side">
+                    <div class="box-div">
+                        <a class="shoe_link" href="Adidas.html">
+                            <img src="adidas.jpg" class="caption__media">
+                            <h1 class="caption__overlay__title">ADIDAS</h1>
+                            <div class="caption__overlay">
+                                <h1 class="caption__overlay__content">FORUM LOW SHOE</h1>
+                                <p class="caption__overlay__content">More than just a shoe, it's a statement. The adidas Forum hit the scene in '84 and gained major love on both the hardwood and in the music biz. This pair of the classic shoes brings back the '80s attitude, the explosive hardwood energy and the iconic X-strap ankle design, distilled into a low top version meant for the streets.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="side">
+                    <div class="box-div">
+                        <a class="shoe_link" href="Nike.html">
+                            <img src="nike.jpg" class="caption__media">
+                            <h1 class="caption__overlay__title">NIKE</h1>
+                            <div class="caption__overlay">
+                                <h1 class="caption__overlay__content">NIKE JANOSKI AIR MAX</h1>
+                                <p class="caption__overlay__content">A skateboarding sneaker that always looks good. This performance skate shoe is made of a one-piece upper with a fusion of red and white called Red Crush.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="side">
+                    <div class="box-div">
+                        <a class="shoe_link" href="Vans.html">
+                            <img src="vans.jpg" class="caption__media">
+                            <h1 class="caption__overlay__title">VANS</h1>
+                            <div class="caption__overlay">
+                                <h1 class="caption__overlay__content">THE OLD SKOOL</h1>
+                                <p class="caption__overlay__content">Vans classic skate shoe and the first to bare the iconic side stripe, has a low-top lace-up silhouette with a durable suede and canvas upper with padded tongue and lining and Vans signature Waffle Outsole. All orders are going to be shipped with original packaging and double-boxed.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="side">
+                    <div class="box-div">
+                        <a class="shoe_link" href="Puma.html">
+                            <img src="puma.jpg" class="caption__media">
+                            <h1 class="caption__overlay__title">PUMA</h1>
+                            <div class="caption__overlay">
+                                <h1 class="caption__overlay__content">THUNDER SPECTRA</h1>
+                                <p class="caption__overlay__content">It looks like a clunky old-style running sneaker with the function of an all-day walking shoe. Its vivid splashes of abstract color matching on the uppers and exaggerated outsoles make the shoes most suitable for full-length pants.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="side">
+                    <div class="box-div">
+                        <a class="shoe_link" href="Converse.html">
+                            <img src="converse.jpeg" class="caption__media">
+                            <h1 class="caption__overlay__title">CONVERSE</h1>
+                            <div class="caption__overlay">
+                                <h1 class="caption__overlay__content">ORIGINAL CONVERSE ALL STAR OX LOW CUT</h1>
+                                <p class="caption__overlay__content">Initially developed as a basketball shoe in the early 20th century, its design has remained largely unchanged since its introduction. The shoe consists of a stitched upper portion, and a toe cap and outsole usually made of rubber.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="footer-div">
+        <div class="footer-item">
+            <a href="#" class="logo"><br>STEPSPHERE<br><br><br></a>
+            <b>547-A Caballeros Street, Binondo, Manila, Metro Manila<br></b>
+            <b>jlereso6@gmail.com<br></b>
+        </div>
+    </div>
+
+    <script>
+        const menu_toggle = document.querySelector('.menu-toggle');
+        const sidebar = document.querySelector('.sidebar');
+
+        menu_toggle.addEventListener('click', () => {
+            menu_toggle.classList.toggle('is-active');
+            sidebar.classList.toggle('is-active');
+        });
+    </script>
+</body>
+</html>
